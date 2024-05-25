@@ -1,0 +1,98 @@
+body{
+   margin: 0px;
+   padding: 0px;
+   font-family: "Figtree", sans-serif;
+   background-color: ivory;
+}
+.mein-div{
+   background-image:linear-gradient(to top, rgba(0,0,0,0.1)50%,rgba(0,0,0,0.1)50%), url(img/eid\ -bakra.jpg);
+   height: 110vh;
+   width: 100%;
+   background-size: cover;
+   background-position: center;
+   /* align-items: center; */
+}
+.h1-div{
+   justify-content: center;
+   text-align: center;
+   padding-top: 60px;
+}
+.h1{
+   color: #222;
+   /* font-family: "Dancing Script", cursive; */
+   font-weight: bold;
+   padding: 0px;
+   margin-top: 0px;
+   /* /* padding-top: 40px; */
+   font-size: 50px;
+   /* color: azure; */
+   /* text-align: center; */
+}
+#mein-div{
+   display: flex;
+   /* height: 10vh; */
+   justify-content: center;
+   align-items: center;
+   gap: 30px;
+   text-align: center;
+   padding-top: 60px;
+   color: #333;
+}
+.hours{
+   box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+   border-radius: 50%;
+   text-align: center;
+   width: 150px;
+   height: 150px;
+   background-color: antiquewhite;
+}
+.time{
+   box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+   border-radius: 50%;
+   text-align: center;
+   width: 150px;
+   height: 150px;
+   background-color: antiquewhite;
+}
+.days{
+   box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+   border-radius: 50%;
+   text-align: center;
+   width: 150px;
+   height: 150px;
+   background-color: antiquewhite;
+}
+.second{
+   box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+   border-radius: 50%;
+   text-align: center;
+   width: 150px;
+   height: 150px;
+   background-color: antiquewhite;
+}
+.days:hover{
+   transform: 1.5;
+   box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+.hours:hover{
+   transform: 1.1;
+   box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+.time:hover{
+   transform: 1.1;
+   box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+.second:hover{
+   transform: 1.1;
+   box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+@media only screen and (max-width: 550px){
+   #mein-div{
+      flex-direction: column;
+      /* padding-bottom: 100px; */
+   }
+   body{
+      background-position: left;
+   }
+}
